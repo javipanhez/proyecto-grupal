@@ -1,5 +1,5 @@
 body {
-    background-image: url(./1366_2000.jpg);
+    background-image: url(./code-1839406_1920.jpg);
 }
 
 
@@ -14,6 +14,7 @@ body {
 section {
     color: white; 
     text-align: center;
+    font-family: 'Source Code Pro', monospace;
 }
 
 h4 {
