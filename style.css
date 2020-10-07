@@ -30,15 +30,16 @@ section{
     color: thistle;
 }
 footer{
-    background-color: rgb(202, 224, 233);
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     font-size:20px;
     width: 200px;
     color: salmon;
-    border-radius: 50px;
+    
     text-align: center;
     margin-top: 100px;
+   
 
 }
 footer:hover{
@@ -48,4 +49,19 @@ footer:hover{
 }
 .red{
     color: rgb(218, 62, 205);
+}
+
+iframe{
+    opacity: 0;
+ 
+    
+}
+iframe:hover{
+    opacity: 1;
+    
+    
+}
+.titulo{
+    background-color: rgba(255, 245, 238, 0.842);
+    border-radius: 50px;
 }
