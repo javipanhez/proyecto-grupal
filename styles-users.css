@@ -28,6 +28,13 @@ img {
   background-color: #b6e7f260;
   border: 1px dashed #84d0d9;
   margin-top: 2rem;
+  -webkit-transition: 500ms;
+}
+
+img:hover {
+  width: 300px;
+  height: 300px;
+  transition: 500ms;
 }
 
 h3 {
