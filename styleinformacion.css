@@ -1,0 +1,30 @@
+body {
+    background-image: url(./code-1839406_1920.jpg);
+}
+
+
+.titulo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;  
+    color: white;  
+}
+
+section {
+    color: white; 
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h4 {
+    background-color: #3b83bd;
+    }
+
+
+footer { 
+    text-align: center;
+    color: white; 
+    background-color: #3b83bd;
+}
+
