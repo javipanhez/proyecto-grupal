@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información usuarios</title>
+    <link rel = "stylesheet" href = "styleinformacion.css">
+</head>
+
+<body>
+
+    <header class = "titulo">
+        Mi perfil en CodeYourWay
+    </header>
+    
+    <section>
+        <h1>A continuación detalla la información que se solicita:</h1>
+    </section>
+
+    <section>
+        <h4>Nombre: </h4> <input type = "text" name = "Nombre" placeholder = "Introduce tu nombre">
+        <h4>Apellidos: </h4> <input type = "text" name = "Apellidos" placeholder = "Introduce tus apellidos">
+    </section>
+
+    <section>
+        <h4>Elige tu especialidad en desarrollo WEB</h4>
+        <select name="Especialidad">
+            <optgroup label = "Especialidad elegida">
+
+            <option value = ""></option> <!-- ¿Cómo se pondría un espacio en blanco en el desplegable?-->
+
+            <option value ="Backend">Backend</option>
+            
+            <option value ="Front">Frontend</option>
+            
+            <option value ="Fullstack">Fullstack</option>
+            </optgroup>
+        </select>
+    </section>
+
+    <section>
+        <h4>Pon una imagen de perfil: </h4> <input type = "file">
+    </section>
+
+    <section>
+        <h4>¿Cuál es tu lenguaje de programación favorito?</h4>
+        <input type = "text" name = "Lenguaje">
+    </section>
+
+    <section>
+        <h4>Indica tu fecha de nacimiento: </h4>
+        <input type = "date">
+    </section>
+
+    <section>
+        <h4>Selecciona el número de meses programando: </h4>
+        <input type = "number">
+    </section>
+
+    
+</body>
+</html>
