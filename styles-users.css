@@ -35,6 +35,11 @@ h3 {
   margin-top: 0.5rem;
   font-weight: bolder;
   font-size: 1.3rem;
+  color: #085951;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
