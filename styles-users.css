@@ -1,0 +1,75 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("https://inteng-storage.s3.amazonaws.com/img/iea/9lwjAVnM6E/sizes/ocde_resize_md.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  color: #f2f2f2;
+  margin-top: 1.5rem;
+}
+
+header {
+  background-color: #2a86bf;
+  height: 6rem;
+  padding: 0.3px;
+  position: sticky;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 1rem;
+  background-color: #b6e7f260;
+  border: 1px dashed #84d0d9;
+  margin-top: 2rem;
+}
+
+h3 {
+  margin: auto;
+  margin-top: 0.5rem;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.container {
+  width: 25rem;
+  height: fit-content;
+  display: grid;
+  justify-self: center;
+  align-items: center;
+  margin: 1.5rem;
+  background-color: #499da6c1;
+  border: 5px double #84d0d9;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  text-align: center;
+  color: #b3dfdb;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 0.5rem;
+}
+
+.imagen {
+  text-align: center;
+}
+
+.quit {
+  position: absolute;
+  right: 1rem;
+  top: 0rem;
+  text-decoration: underline;
+  color: white;
+}
